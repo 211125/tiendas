@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/sweet/sweetalert2.css">
+    <script src="./styles/sweet/sweetalert2.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/contactos.css">
+    <title>tienda</title>
+</head>
+<body>
+    
+   
+    <header class="header">
+        <div class="container">
+      
+           
+            <nav class="menu">
+
+                <a href="./tienda.html">Inicio</a>
+                <a href="./contactos.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col"> 
+                <div > 
+                    <img  src="./img/img3.jpg"  alt="">
+                            <div>
+                               
+                                <form class="form-comet" name="formName" onsubmit="return validarFormulario()">
+
+                                    <h4>contáctanos</h4>
+                                    <label class="inp" for="inp">
+                                        <input class="controls" type="text" name="nombre" >
+                                        <span class="label">Tu nombre</span>
+                                        <span class="focus-bg"></span>
+                                    </label>
+                                    <label class="inp" for="inp">
+                                        <input class="controls" type="email" name="correo" >
+                                        <span class="label">Tu correo electrónico</span>
+                                        <span class="focus-bg"></span>
+                                    </label>
+                                    <label class="inp" for="inp">
+                                        <input class="controls" type="number" name="Numero" >
+                                        <span class="label">Tu teléfono</span>
+                                        <span class="focus-bg"></span>
+                                    </label>
+                                    
+                                    <label class="inp" for="inp">
+                                        <input class="controls" type="text" name="comentarios" >
+                                        
+                        
+                                        <span class="label">¿tu comentario ?</span>
+                                        <span class="focus-bg"></span>
+                                    </label>
+                                  <div>
+                                    <button class="button-62" type="submit" role="button">Enviar</button>
+                                  </div>
+                                   
+                                
+                                </form>
+                                
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="./js/contactos.js"></script>
+</body>
+</html>

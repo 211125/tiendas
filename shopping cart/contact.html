@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style/contact.css">
+  <link rel="stylesheet" href="./style/style.css">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <style>
+    .error {color:red;}
+    form {width:400px;font-family:Arial;}
+    form input {font-family:Arial;}
+    form>div {margin:5px;}
+    form>div:last-child {text-align:center;margin-top:10px;}
+    </style>
+  <script src="./js/contact.js"></script>
+  
+  <title>Tienda</title>
+
+  <header class="header">
+    <a href="./Index.html" class="logo"> <i class="fas fa-cubes"></i> POPS.SF </a>
+
+    <nav class="navbar">
+        <a href="./product.html">Home</a>
+        
+        <div class="info">
+            <h4 class="titulo">sudadera Negra</h4>
+            <p class="titulo3">Sudadera Negra a $200 con envio gratis 
+            
+            </p>
+            <i class='bx bx-x' id="close-cart2" ></i>
+    
+        </div>
+        <div class="info2">
+            <h4 class="titulo">sudadera Negra</h4>
+            <p class="titulo3">Sudadera Negra a $200 con envio gratis 
+            
+            </p>
+            <i class='bx bx-x' id="close-cart3" ></i>
+    
+        </div>
+        <a href="./contact.html">contact us</a>
+       
+    </nav>
+    <a href="" class="bienvenido">bienvenido</a>
+    <a href="" class="bienvenido">bienvenido</a>
+</header>
+</head>
+<body class="body">
+  <form class="form-register" name="formName" onsubmit="return validarFormulario()"">
+
+    <h4>contáctanos</h4>
+
+    <input class="controls" type="text" name="nombre"  placeholder="Ingrese su Nombre"></div>
+    <div><input  name="alerNom"type="hidden" readonly></div>
+   <input class="controls" type="number" name="Numero"  placeholder="Ingrese su numero">
+   <div><input  name="alerNum"type="hidden" readonly></div>
+    <input class="controls" type="email" name="correo" placeholder="Ingrese su Correo">
+   <div><input  name="correo2"type="hidden" readonly></div>
+    <textarea name="comentarios" class="controls" rows="5" cols="30">Escribe aquí tus comentarios</textarea>
+    <div><input  name="comen"type="hidden" readonly></div>
+    <input class="botons" type="submit" value="aceptar">
+
+</form>
+<script src="js/index.js"></script>
+</body>
+</html>
